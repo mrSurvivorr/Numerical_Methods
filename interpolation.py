@@ -19,6 +19,8 @@ class Ui(QtWidgets.QDialog):
         self.fileImportButton.clicked.connect(self.importFile);
 
     def calculate(self):
+        
+        self.errorMessage.clear()
 
         self.dataplot.clear()
 
