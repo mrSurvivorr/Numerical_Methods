@@ -50,7 +50,7 @@ class Ui(QtWidgets.QDialog):
 
         self.dataplot.plot(x, y)
 
-        file_object = open("log.txt", "w")
+        file_object = open("log.txt", "a")
 
         file_object.write(str(datetime.datetime.now()))
         file_object.write("\n")
